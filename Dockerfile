@@ -1,5 +1,5 @@
-# Tells the image to use the latest version of PHP
-FROM php:latest-apache  
+# Tells the image to use the latest version of apache
+FROM httpd:2.4
 
 # Creates a directory called "app"
 RUN mkdir /app  
