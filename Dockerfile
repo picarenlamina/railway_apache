@@ -17,7 +17,7 @@ RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 COPY /site /var/www/site
 
 # Sets permissions for the web user
-RUN chown -R www-data:www-data
+#RUN chown -R www-data:www-data
 
 
 
