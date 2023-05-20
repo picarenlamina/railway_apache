@@ -18,7 +18,7 @@ RUN docker-php-ext-install pdo_mysql
 
 
 # Copies your code to the image
-COPY /app /var/www/html
+COPY /site /var/www/html
 
 EXPOSE $PORT
 #CMD [“apache2ctl”, “-D”, “FOREGROUND”]
