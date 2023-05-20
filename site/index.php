@@ -1,3 +1,3 @@
 <?php
 
-<h1>Esto es una prueba</h1>
+echo "<h1>Esto es una prueba</h1>";
