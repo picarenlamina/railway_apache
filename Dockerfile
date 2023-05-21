@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
 
 #instalar composer 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-RUN composer install --no-dev
+#RUN composer install --no-dev
 
 # Copies your code to the image
 COPY /site /var/www/html
