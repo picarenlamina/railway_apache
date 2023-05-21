@@ -5,3 +5,6 @@ Warning: require_once(/var/www/html/vendor/autoload_runtime.php): failed to open
 Fatal error: require_once(): Failed opening required '/var/www/html/vendor/autoload_runtime.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php on line 5
 
 source: https://parzibyte.me/blog/2018/05/05/solucion-no-such-file-directory-autoload-php/
+
+
+https://www.howtogeek.com/devops/how-to-use-docker-to-containerise-php-and-apache/
