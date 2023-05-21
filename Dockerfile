@@ -43,6 +43,7 @@ COPY /site /var/www/html
 EXPOSE $PORT
 #CMD [“apache2ctl”, “-D”, “FOREGROUND”]
 
+
 ENTRYPOINT apache2ctl -D 'FOREGROUND'
 
 
