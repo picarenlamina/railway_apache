@@ -10,3 +10,7 @@ source: https://parzibyte.me/blog/2018/05/05/solucion-no-such-file-directory-aut
 https://www.howtogeek.com/devops/how-to-use-docker-to-containerise-php-and-apache/
 
 https://www.howtogeek.com/devops/how-to-use-docker-to-containerise-php-and-apache/
+
+# Instalacion git y copiar repositorio
+
+https://gist.github.com/pekechis/50089bf90443bac115572a71b8ec42ac
