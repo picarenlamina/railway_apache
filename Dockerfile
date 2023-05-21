@@ -30,7 +30,8 @@ RUN apt-get update && apt-get install -y \
     unzip
 
 #instalar composer 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+#RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN curl -sS https://getcomposer.org/installer | php composer-setup.php --install-dir=bin --filename=composer
 #RUN composer install --no-dev
 
 # Copies your code to the image
