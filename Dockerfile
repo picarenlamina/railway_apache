@@ -28,9 +28,9 @@ RUN php /usr/bin/composer install
 # Copies your code to the image
 COPY /site /var/www/html
 
-RUN  composer require symfony/apache-pack
+#RUN  composer require symfony/apache-pack
 # Copies your code to the image
-#COPY /site /var/www/html
+COPY /site /var/www/html
 
 
 EXPOSE $PORT
