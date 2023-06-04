@@ -33,9 +33,9 @@ EXPOSE $PORT
 
 
 
-#ENTRYPOINT apache2ctl -D 'FOREGROUND'
+ENTRYPOINT apache2ctl -D 'FOREGROUND'
 
 
-ENTRYPOINT apachectl -k restart
+
 
 
