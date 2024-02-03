@@ -1,4 +1,4 @@
-# railway_apache
+# INSTALACION DE SYMFONY EN RAILWAY
 # Instalacion Composer y generacion vendor
 
 Warning: require_once(/var/www/html/vendor/autoload_runtime.php): failed to open stream: No such file or directory in /var/www/html/public/index.php on line 5
