@@ -40,7 +40,7 @@ COPY /apache/apache2.conf /etc/apache2
 # Copies your code to the image
 COPY /site /var/www/html
 
-
+# Declarar $PORT en railway con valor 80
 EXPOSE $PORT
 #CMD [“apache2ctl”, “-D”, “FOREGROUND”]
 
